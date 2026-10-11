@@ -1,0 +1,188 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /Image1
+        - /TF1
+        - /Markers1
+        - /PoseArray1
+      Splitter Ratio: 0.5
+    Tree Height: 387
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.588679
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: Image
+
+Toolbars:
+  toolButtonStyle: 2
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.03
+        Value: Line
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz/Image
+      Enabled: true
+      Image Topic: /camera/image_raw
+      Max Value: 1
+      Median window: 4
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        aruco_marker_0:
+          Value: true
+        aruco_marker_1:
+          Value: true
+        aruco_marker_2:
+          Value: true
+        aruco_marker_3:
+          Value: true
+        aruco_marker_4:
+          Value: true
+        camera:
+          Value: true
+      Marker Scale: 0.5
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree Property: Tree
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /aruco_markers
+      Name: Markers
+      Namespaces:
+        aruco_markers: true
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Axes Length: 0.3
+      Axes Radius: 0.03
+      Class: rviz/PoseArray
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.07
+      Head Radius: 0.05
+      Name: PoseArray
+      Queue Size: 10
+      Shaft Length: 0.23
+      Shaft Radius: 0.02
+      Shape: Arrow (Flat)
+      Topic: /aruco_pose_array
+      Unreliable: false
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: camera
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.26179938779914946
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click publishing: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 2.5
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.06
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 0.785398
+      Target Frame: camera
+      Value: Orbit (rviz)
+      Yaw: 0.785398
+    Saved Views: {}
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 846
+  Hide Left Dock: false
+  Hide Right Dock: false
+  Image:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002ac000002e4fc0200000009fb0000001200530065006c0065006300740069006f006e00000000000000009f0000005c00fffffffb0000001e0054006f006f006c002000500072006f0070006500720074006900650073fffffffd000000410000005b0100000010fb0000001000440069007300700006c006100790073010000009f0000024600ffffffff fb0000001000440069007300700006c006100790073010000019e0000005c00fffffffb0000000a0049006d00610067006500000002a0000000c80000001600fffffffb0000000c00540069006d00650050006f006e0065006c0100000265000000640000003f00fffffffb0000000800560069006500770073010000018b0000010e0000008e00fffffffb0000001600460069006c00650043006c006f00770065007200000002a00000008700ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1200
+  X: 100
+  Y: 100

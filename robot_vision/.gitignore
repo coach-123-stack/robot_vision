@@ -1,0 +1,6 @@
+.gitignore
+build/
+debian/
+*.pyc
+*.bag
+*.log
